@@ -129,10 +129,10 @@ go list -m -versions github.com/tinyverse-web3/btcd/btcutil
 go list -m -versions github.com/tinyverse-web3/btcd/btcutil/psbt
 go list -m -versions github.com/tinyverse-web3/btcd/btcec/v2
 
-git tag -d v0.24.3
-git push origin --delete v0.24.3
-git tag v0.24.3
-git push origin v0.24.3
+git tag -d v0.24.4
+git push origin --delete v0.24.4
+git tag v0.24.4
+git push origin v0.24.4
 
 git tag -d chaincfg/chainhash/v1.1.0
 git push origin --delete chaincfg/chainhash/v1.1.0
