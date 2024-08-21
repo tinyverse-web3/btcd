@@ -5,7 +5,7 @@ go 1.22.1
 require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/stretchr/testify v1.9.0
-	github.com/tinyverse-web3/btcd v0.24.2
+	github.com/tinyverse-web3/btcd v0.24.2-testnet4
 	github.com/tinyverse-web3/btcd/btcec/v2 v2.3.4
 	github.com/tinyverse-web3/btcd/btcutil v1.1.6
 	github.com/tinyverse-web3/btcd/chaincfg/chainhash v1.1.0
