@@ -129,25 +129,25 @@ go list -m -versions github.com/tinyverse-web3/btcd/btcutil
 go list -m -versions github.com/tinyverse-web3/btcd/btcutil/psbt
 go list -m -versions github.com/tinyverse-web3/btcd/btcec/v2
 
-git tag -d v0.24.2
-git push origin --delete v0.24.2
-git tag v0.24.2
-git push origin v0.24.2
+git tag -d v0.24.2-testnet4
+git push origin --delete v0.24.2-testnet4
+git tag v0.24.2-testnet4
+git push origin v0.24.2-testnet4
 
 git tag -d chaincfg/chainhash/v1.1.0
 git push origin --delete chaincfg/chainhash/v1.1.0
 git tag chaincfg/chainhash/v1.1.0
 git push origin chaincfg/chainhash/v1.1.0
 
-git tag -d btcutil/v1.1.6
-git push origin --delete btcutil/v1.1.6
-git tag btcutil/v1.1.6
-git push origin btcutil/v1.1.6
+git tag -d btcutil/v1.1.6-testnet4
+git push origin --delete btcutil/v1.1.6-testnet4
+git tag btcutil/v1.1.6-testnet4
+git push origin btcutil/v1.1.6-testnet4
 
-git tag -d btcutil/psbt/v1.1.9
-git push origin --delete btcutil/psbt/v1.1.9
-git tag btcutil/psbt/v1.1.9
-git push origin btcutil/psbt/v1.1.9
+git tag -d btcutil/psbt/v1.1.9-testnet4
+git push origin --delete btcutil/psbt/v1.1.9-testnet4
+git tag btcutil/psbt/v1.1.9-testnet4
+git push origin btcutil/psbt/v1.1.9-testnet4
 
 git tag -d btcec/v2.3.4
 git push origin --delete btcec/v2.3.4
